@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RAG Chunking Strategy Visualizer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RAG Chunking Strategy Visualizer</h1>
+        <form id="upload-form">
+            <input type="file" id="pdf-file" accept="application/pdf" required />
+            <button type="submit">Upload PDF</button>
+        </form>
+        <div id="extracted-text-section" style="display:none;">
+            <h2>Extracted Text</h2>
+            <textarea id="extracted-text" rows="8" readonly></textarea>
+        </div>
+        <div id="chunking-section" style="display:none;">
+            <h2>Chunking Strategy</h2>
+            <label for="strategy">Strategy:</label>
+            <select id="strategy"></select>
+            <span id="strategy-explanation"></span>
+            <div id="params"></div>
+            <button id="chunk-btn">Chunk & Visualize</button>
+        </div>
+        <div id="chunks-section" style="display:none;">
+            <h2>Chunks</h2>
+            <div id="chunks"></div>
+        </div>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>

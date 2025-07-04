@@ -1,0 +1,11 @@
+[project]
+name = "rag-chunk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.14",
+    "pypdf>=5.7.0",
+    "pypdf2>=3.0.1",
+]

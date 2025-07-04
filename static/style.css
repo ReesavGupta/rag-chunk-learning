@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 24px 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+textarea {
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 12px;
+}
+#chunks {
+    margin-top: 16px;
+}
+.chunk {
+    background: #e3eaff;
+    border-left: 4px solid #4a90e2;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 0.98em;
+}
+.chunk-meta {
+    font-size: 0.85em;
+    color: #666;
+    margin-bottom: 4px;
+}
+label, select, button {
+    font-size: 1em;
+    margin-right: 8px;
+}
+#params input {
+    width: 60px;
+    margin-right: 8px;
+}
